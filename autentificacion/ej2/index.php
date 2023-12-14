@@ -75,12 +75,6 @@
             lorem dolor, sed ultrices libero condimentum id. Orci varius natoque penatibus et magnis dis parturient
             montes, nascetur ridiculus mus.</p>
     </div>
-
-    <?php
-        if ($role == "admin") {
-            include_once "./views/admin.php";
-        }
-    ?>
 </body>
 
 </html>

@@ -3,4 +3,4 @@
         header("Location: ../");
     }
 ?>
-<li><a href="#">Cosas de administrador</a></li>
+<li><a href="./views/admin.php">Cosas de administrador</a></li>
