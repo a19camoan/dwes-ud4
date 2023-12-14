@@ -33,7 +33,9 @@
 
     <h2>Creación de cookie</h2>
     <form action="<?php echo $_SERVER["PHP_SELF"] ?>" method="post">
-        <label for="cookie"><p>Valor de la cookie</p></label>
+        <label for="cookie">
+            <p>Valor de la cookie</p>
+        </label>
         <input type="text" name="cookie" id="cookie">
         <br>
         <input type="submit" value="Enviar" name="enviar">
@@ -53,7 +55,7 @@
         }
     ?>
 
-        <p><a href="https://github.com/a19camoan/dwes-ud4" target="_blank">Github</a></p>
+    <p><a href="https://github.com/a19camoan/dwes-ud4" target="_blank">Github</a></p>
 </body>
 
 </html>
