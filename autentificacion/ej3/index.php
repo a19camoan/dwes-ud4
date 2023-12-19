@@ -7,7 +7,7 @@
      * @author Andrés <a19camoan@iesgrancapitan.org>
      */
     $usuario_autorizado = 'usuario';
-    $contrasena_autorizada = 'contrasena_secreta';
+    $contrasena_autorizada = 'contrasena';
 
     if (!isset($_SERVER['PHP_AUTH_USER']) || !isset($_SERVER['PHP_AUTH_PW']) ||
         $_SERVER['PHP_AUTH_USER'] !== $usuario_autorizado || $_SERVER['PHP_AUTH_PW'] !== $contrasena_autorizada) {
@@ -36,6 +36,8 @@
         <input type="password" id="contrasena" name="contrasena" required><br>
         <input type="submit" value="Iniciar sesión">
     </form>
+
+    <p><a href='https://github.com/a19camoan/dwes-ud4' target='_blank'>Github</a></p>
 </body>
 
 </html>
