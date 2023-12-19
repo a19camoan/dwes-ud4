@@ -15,3 +15,7 @@
 ## Ficheros
 
 [índice](./ficheros/README.md)
+
+## Actividad evaluable
+
+[Script](./actividad_evaluable/index.php)
