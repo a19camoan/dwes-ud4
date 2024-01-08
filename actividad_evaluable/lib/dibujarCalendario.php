@@ -44,6 +44,8 @@ TBL;
             foreach ($_SESSION["tareas"] as $key => $value) {
                 $fechaTareas[explode("-", $key)[0] . "-" . explode("-", $key)[1]] = explode("-", $key)[2];
             }
+        } else {
+            $fechaTareas = [];
         }
 
         if ($i == $diaActual && $mes == array_keys($meses)[$mesActual - 1] && $anno == $annoActual) {
